@@ -1,0 +1,6 @@
+Run metrics:
+{'all': {'accuracy': np.float32(0.9022434), 'exact_accuracy': np.float32(0.7357552), 'lm_loss': np.float32(0.22175403), 'q_halt_accuracy': np.float32(0.99979657), 'q_halt_loss': np.float32(0.017463274), 'steps': np.float32(16.0)}}
+  all.exact_accuracy 95% Wilson CI [73.44%, 73.71%] (N=422786)
+    -> approx: 73.58 ± 0.13 %
+  all.accuracy 95% Wilson CI [90.21%, 90.23%] (N=34245666)
+    -> approx: 90.22 ± 0.01 %

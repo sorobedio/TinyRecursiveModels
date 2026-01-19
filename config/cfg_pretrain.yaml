@@ -2,7 +2,7 @@
 
 defaults:
   - arch: trm
-  - _self_
+  - _mlp_t_
 
 hydra:
   output_subdir: null
