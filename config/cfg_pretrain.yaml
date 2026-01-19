@@ -1,8 +1,8 @@
 # ARC training config
 
 defaults:
-  - arch: trm
-  - _mlp_
+  - arch: trm_mlp
+  - _self_
 
 hydra:
   output_subdir: null
