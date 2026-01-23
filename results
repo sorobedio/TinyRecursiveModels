@@ -4,3 +4,11 @@ Run metrics:
     -> approx: 73.58 ± 0.13 %
   all.accuracy 95% Wilson CI [90.21%, 90.23%] (N=34245666)
     -> approx: 90.22 ± 0.01 %
+
+../icml-c2w/variants/maze_hard_step_32550/variant_000.pt
+
+
+CUDA_VISIBLE_DEVICES=7 python scripts/run_eval_only.py \
+  --checkpoint alphaxiv/trm-model-maze/maze_hard_step_32550 \
+  --dataset data/maze-30x30-hard-1k \
+  --one-batch
